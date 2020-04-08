@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+int main () {
+	//membuat program break
+	int jumlah=0;
+    cout<<"Jumlah : ";
+	cin>>jumlah;
+
+	for ( int i = 1 ; i <= 20 ; i++) {
+		if ( i > 15 ) break;
+		//jika i lebih dari 15 maka break
+		cout << i << endl;
+	}
+	return 0;
+}
